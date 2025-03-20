@@ -32,7 +32,7 @@ void input()
     }
 }
 
-void insertion()
+void insertionSort()
 { //Prosedure InsertionSort
     int temp; //Membuat variable data temporer atau penyimpanan sementara
     int j, i; //Membuat variable j sebagai penanda
@@ -65,4 +65,13 @@ void display()
         cout << arr[j] << endl; //output ke layar
     }
     cout << endl; //Output baris kosong
+}
+
+int main()
+{
+    input();
+    insertionSort();
+    display();
+    system("Pause");
+    return 0;
 }
